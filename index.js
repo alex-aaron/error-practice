@@ -36,6 +36,11 @@ const blogs = [
 
 const mostRecentBlog = blogs[length - 1];
 
-if (mostRecentBlog.text.length){
-
+if (blogs.length % 2 === 0){
+  let isEven = true;
+} else {
+  let isEven = false;
 }
+
+const evenNumOfBlogs = isEven;
+
